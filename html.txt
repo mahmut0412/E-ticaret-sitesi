@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mahmut</title>
+</head>
+<body>
+    <header>
+        <div class="search">
+            <div class="search-icon">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <input type="text" placeholder="Arama yap..." id="search-input">
+        </div>
+        <nav class="navigition">
+            <a href="#"><i class="fa-regular fa-bell"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </nav>
+    </header>
+
+    <section class="buttonlar">
+        <a href="#">Tişöret</a>
+        <a href="#">Botlar</a>
+        <a href="#">Gözlük</a>
+        <a href="#">Saatler</a>
+        <a href="#">Oyunlar</a>
+        <a href="#">Camera</a>
+        <a href="#">Telefon</a>
+        <a href="#">Bilgisayar</a>
+        <a href="#">ayakkapilar</a>
+        <a href="#">Çanta</a>
+        <a href="#">Makyac</a>
+        <a href="#">Elektronik</a>
+        <a href="#">Bisiklet</a>
+    </section>
+    
+    <main>
+        <section class="filtre">
+                <div class="filtre-satir">
+                    <label for="Kategori">Kategori</label>
+                    <select name="Kategori" id="Kategori">
+                        <optgroup label="Kategori">
+                            <option value="1">Erkek</option>
+                            <option value="2">Kadın</option>
+                            <option value="3">Çocuk</option>
+                            <option value="4">Bebek</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="filtre-satir">
+                    <label for="Fiyat">Fiyat</label>
+                    <select name="Fiyat">
+                        <optgroup label="Fiyat">
+                            <option value="1">0-500</option>
+                            <option value="2">501-1000</option>
+                            <option value="3">1001-2000</option>
+                            <option value="3">2001-5000</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="filtre-satir">
+                    <label for="Konum">Konum</label>
+                    <select name="Konum">
+                        <optgroup label="Konum">
+                            <option value="1">İstanbul</option>
+                            <option value="2" selected>İdlip</option>
+                            <option value="3">Kahramanmaraş</option>
+                            <option value="3">Erzurum</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="filtre-satir">
+                    <label for="Nakliye">Nakliye öceliği</label>
+                    <select name="Nakliye" id="Nakliye">
+                        <optgroup label="Nakliye">
+                            <option value="1">Bugün</option>
+                            <option value="2" selected>Yarin</option>
+                            <option value="3">Normal</option>
+                        </optgroup>
+                    </select>
+                </div>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <div class="image">
+                  <img src="images/image1.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Kaliteli Bot</span>
+                        <span>25.25$</span>
+                    </strong>
+                    <div class="alt">
+                        <p class="project-categry">Çok güzel bot</p>
+                        <strong>
+                            <a href="#" class="more-details">Sepete Ekle</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                  <img src="images/image1.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Kaliteli Bot</span>
+                        <span>25.25$</span>
+                    </strong>
+                    <div class="alt">
+                        <p class="project-categry">Çok güzel bot</p>
+                        <strong>
+                            <a href="#" class="more-details">Sepete Ekle</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                  <img src="images/image1.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Kaliteli Bot</span>
+                        <span>25.25$</span>
+                    </strong>
+                    <div class="alt">
+                        <p class="project-categry">Çok güzel bot</p>
+                        <strong>
+                            <a href="#" class="more-details">Sepete Ekle</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                  <img src="images/image1.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Kaliteli Bot</span>
+                        <span>25.25$</span>
+                    </strong>
+                    <div class="alt">
+                        <p class="project-categry">Çok güzel bot</p>
+                        <strong>
+                            <a href="#" class="more-details">Sepete Ekle</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                  <img src="images/image1.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Kaliteli Bot</span>
+                        <span>25.25$</span>
+                    </strong>
+                    <div class="alt">
+                        <p class="project-categry">Çok güzel bot</p>
+                        <strong>
+                            <a href="#" class="more-details">Sepete Ekle</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                  <img src="images/image1.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Kaliteli Bot</span>
+                        <span>25.25$</span>
+                    </strong>
+                    <div class="alt">
+                        <p class="project-categry">Çok güzel bot</p>
+                        <strong>
+                            <a href="#" class="more-details">Sepete Ekle</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                  <img src="images/image1.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Kaliteli Bot</span>
+                        <span>25.25$</span>
+                    </strong>
+                    <div class="alt">
+                        <p class="project-categry">Çok güzel bot</p>
+                        <strong>
+                            <a href="#" class="more-details">Sepete Ekle</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                  <img src="images/image1.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Kaliteli Bot</span>
+                        <span>25.25$</span>
+                    </strong>
+                    <div class="alt">
+                        <p class="project-categry">Çok güzel bot</p>
+                        <strong>
+                            <a href="#" class="more-details">Sepete Ekle</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                  <img src="images/image1.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Kaliteli Bot</span>
+                        <span>25.25$</span>
+                    </strong>
+                    <div class="alt">
+                        <p class="project-categry">Çok güzel bot</p>
+                        <strong>
+                            <a href="#" class="more-details">Sepete Ekle</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+      
+        </section>
+    </main>
+
+    <footer>
+        <footer class="end">
+            <div class="end-info">
+              <p class="end-title">kopyrights @ <span>Mahmoud</span></p>
+            </div>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/maho0_12?igsh=MTg5ZmxjdWVzeG5ieA==" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/mahmoud.almuhammad.56" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </footer>
+      
+    </footer>
+</body>
+</html>
